@@ -1,0 +1,22 @@
+merge(A, B):
+  C = empty list
+
+  While A and B are not empty:
+    If the first element of A is smaller than the first element of B:
+      Remove first element of A.
+      Add it to the end of C.
+    Otherwise:
+      Remove first element of B.
+      Add it to the end of C.
+
+  If A or B still contains elements, add them to the end of C.
+
+mergeSort(A):
+  if length of A is 1:
+    return A
+
+  Split A into two lists, L and R.
+
+  Q = merge(mergeSort(L), mergeSort(R))
+
+  return Q
