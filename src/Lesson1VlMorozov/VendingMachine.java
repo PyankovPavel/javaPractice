@@ -25,11 +25,12 @@ public class VendingMachine {
     @Override
     public String toString() {
         StringBuilder localString = new StringBuilder();
+        localString.append("Содержимое машины: " + "\n");
         for (Product product : localList) {
             localString.append(product.toString());
             localString.append("\n");
         }
-        localString.append(cash + "\n");
+        localString.append(String.format("В кассе: %.2f " + "\n", cash));
         return localString.toString();
     }
 
