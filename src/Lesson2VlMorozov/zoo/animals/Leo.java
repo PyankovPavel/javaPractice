@@ -1,5 +1,8 @@
-package Lesson2VlMorozov.zoo;
+package Lesson2VlMorozov.zoo.animals;
 
+
+import Lesson2VlMorozov.zoo.Predator;
+import Lesson2VlMorozov.zoo.Runable;
 
 public class Leo extends Predator implements Runable {
     private int runSpeed = 300;
@@ -10,7 +13,7 @@ public class Leo extends Predator implements Runable {
 
     @Override
     public String say() {
-        return "Rrrr!";
+        return "Leo says Rrrr!";
     }
 
 

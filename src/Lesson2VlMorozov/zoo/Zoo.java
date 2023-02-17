@@ -58,22 +58,43 @@ public class Zoo {
         return flyableList;
     }
 
-    public Animal getRunChampion(){
+    public List<Swimmable> getSwimmableList() {
+        List<Swimmable> swimmableList = new ArrayList<>();
+        for (Animal animal : this.animalList) {
+            if (animal instanceof Swimmable) {
+                swimmableList.add((Swimmable) animal);
+            }
+        }
+        return swimmableList;
+    }
+
+    public Animal getRunChampion() {
         List<Runable> runners = getRunableList();
         Runable champion = runners.get(0);
-        for (Runable r : runners){
-            if(champion.getSpeedRun() < r.getSpeedRun()){
+        for (Runable r : runners) {
+            if (champion.getSpeedRun() < r.getSpeedRun()) {
                 champion = r;
             }
         }
         return (Animal) champion;
     }
 
-    public Animal getFlightChampion(){
+    public Animal getFlightChampion() {
         List<Flyable> flyers = getFlyableList();
         Flyable champion = flyers.get(0);
-        for (Flyable r : flyers){
-            if(champion.getSpeedFlyable() < r.getSpeedFlyable()){
+        for (Flyable r : flyers) {
+            if (champion.getSpeedFlyable() < r.getSpeedFlyable()) {
+                champion = r;
+            }
+        }
+        return (Animal) champion;
+    }
+
+    public Animal getSwimChampion() {
+        List<Swimmable> swimmers = getSwimmableList();
+        Swimmable champion = swimmers.get(0);
+        for (Swimmable r : swimmers) {
+            if (champion.getSwimmingSpeed() < r.getSwimmingSpeed()) {
                 champion = r;
             }
         }

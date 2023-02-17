@@ -1,7 +1,10 @@
-package Lesson2VlMorozov.zoo;
+package Lesson2VlMorozov.zoo.animals;
 
 
-public class Cow extends Herbivores implements Flyable{
+import Lesson2VlMorozov.zoo.Flyable;
+import Lesson2VlMorozov.zoo.Herbivores;
+
+public class Cow extends Herbivores implements Flyable {
     private int flightSpeed = 13;
     private int flightHing = 2;
     public Cow(String name) {
@@ -10,7 +13,7 @@ public class Cow extends Herbivores implements Flyable{
 
     @Override
     public String say() {
-        return "Muu!";
+        return "Cow says Muu!";
     }
 
     @Override
@@ -19,7 +22,7 @@ public class Cow extends Herbivores implements Flyable{
     }
 
     @Override
-    public int getHigh() {
+    public int getHeight() {
         return this.flightHing;
     }
 }

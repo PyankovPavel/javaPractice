@@ -20,10 +20,13 @@ public abstract class Animal implements Sayable {
     public String toString() {
         StringBuilder srt = new StringBuilder();
         if (this instanceof Runable) {
-            srt.append(" Скорость бега - > " + ((Runable) this).getSpeedRun());
+            srt.append(" Скорость бега - > ").append(((Runable) this).getSpeedRun());
         }
         if (this instanceof Flyable) {
-            srt.append(" Скорость полёта - > " + ((Flyable) this).getSpeedFlyable());
+            srt.append(" Скорость полёта - > ").append(((Flyable) this).getSpeedFlyable());
+        }
+        if (this instanceof Swimmable) {
+            srt.append(" Скорость плавания - > ").append(((Swimmable) this).getSwimmingSpeed());
         }
         return String.format(srt + " %s ест %s", this.name, this.feed());
     }

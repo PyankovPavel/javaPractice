@@ -1,5 +1,8 @@
-package Lesson2VlMorozov.zoo;
+package Lesson2VlMorozov.zoo.animals;
 
+
+import Lesson2VlMorozov.zoo.Herbivores;
+import Lesson2VlMorozov.zoo.Runable;
 
 public class Goat extends Herbivores implements Runable {
     private int runSpeed = 4;
@@ -10,7 +13,7 @@ public class Goat extends Herbivores implements Runable {
 
     @Override
     public String say() {
-        return "Beee!";
+        return "Goat says Beee!";
     }
 
     @Override

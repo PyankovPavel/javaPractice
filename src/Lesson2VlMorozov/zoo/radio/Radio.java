@@ -5,6 +5,6 @@ public class Radio implements Sayable {
 
     @Override
     public String say() {
-        return "Bla Bla Bla!";
+        return "Radio says Bla Bla Bla!";
     }
 }
