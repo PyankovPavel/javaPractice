@@ -1,4 +1,4 @@
-package Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.views;
+package Lesson5VlMorozov.personal.views;
 
 public enum Commands {
     NONE,

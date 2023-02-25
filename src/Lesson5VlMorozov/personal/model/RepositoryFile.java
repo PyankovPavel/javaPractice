@@ -1,4 +1,4 @@
-package Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.model;
+package Lesson5VlMorozov.personal.model;
 
 import java.util.ArrayList;
 import java.util.List;

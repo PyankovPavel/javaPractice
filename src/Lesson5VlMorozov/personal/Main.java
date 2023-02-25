@@ -1,11 +1,11 @@
-package Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal;
+package Lesson5VlMorozov.personal;
 
-import Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.controllers.UserController;
-import personal.model.FileOperation;
-import personal.model.FileOperationImpl;
-import personal.model.Repository;
-import personal.model.RepositoryFile;
-import personal.views.ViewUser;
+import Lesson5VlMorozov.personal.controllers.UserController;
+import Lesson5VlMorozov.personal.model.FileOperation;
+import Lesson5VlMorozov.personal.model.FileOperationImpl;
+import Lesson5VlMorozov.personal.model.Repository;
+import Lesson5VlMorozov.personal.model.RepositoryFile;
+import Lesson5VlMorozov.personal.views.ViewUser;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
-package Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.controllers;
+package Lesson5VlMorozov.personal.controllers;
 
-import personal.model.Repository;
-import personal.model.User;
+
+
+import Lesson5VlMorozov.personal.model.Repository;
+import Lesson5VlMorozov.personal.model.User;
 
 import java.util.List;
 

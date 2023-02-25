@@ -16,7 +16,6 @@ public class Sale extends Product {
     @Override
     public String toString() {
         return super.toString() + String.format(" !Скидка на товар %s стоимостью %.2f длится до %s",
-                super.getName(), super.getCost(),
-                salesTime.toString());
+                super.getName(), super.getCost(), salesTime.toString());
     }
 }

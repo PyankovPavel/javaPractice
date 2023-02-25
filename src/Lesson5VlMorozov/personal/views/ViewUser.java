@@ -1,7 +1,8 @@
-package Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.views;
+package Lesson5VlMorozov.personal.views;
 
-import Lesson5VlMorozov.OOP_Lesson5_MVC.src.personal.controllers.UserController;
-import personal.model.User;
+import Lesson5VlMorozov.personal.controllers.UserController;
+import Lesson5VlMorozov.personal.model.User;
+import Lesson5VlMorozov.personal.views.Commands;
 
 import java.util.Scanner;
 

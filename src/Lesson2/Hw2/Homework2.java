@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Homework2 {
     public static void main(String[] args) {
-        int[] arr1 = createArr(-10, 10, 15);
+        int[] arr1 = createArr(-100, 100, 25);
         System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(mergeArr(arr1)));
     }
