@@ -1,7 +1,7 @@
 package Lesson5VlMorozov.personal.views;
 
 public enum Commands {
-    NONE,
+    HELP,
     READ,
     CREATE,
     UPDATE,

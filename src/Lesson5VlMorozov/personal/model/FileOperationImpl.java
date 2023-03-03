@@ -6,7 +6,7 @@ import java.util.List;
 
 public class FileOperationImpl implements FileOperation {
 
-    private String fileName;
+    private final String fileName;
 
     public FileOperationImpl(String fileName) {
         this.fileName = fileName;
@@ -38,8 +38,6 @@ public class FileOperationImpl implements FileOperation {
                 }
             }
             fr.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
