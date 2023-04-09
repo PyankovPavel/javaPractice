@@ -1,0 +1,16 @@
+2023-04-09T12:29:56.506743900, New note has been saved 
+Note number: 
+Date: 2023-04-09 12:29:56
+Header: First
+Body: today is sunday 
+
+2023-04-09T12:29:59.768187700, All users read 
+
+2023-04-09T12:30:48.423565100, New note has been saved 
+Note number: 
+Date: 2023-04-09 12:30:48
+Header: second
+Body: It's a test text for the second note 
+
+2023-04-09T12:34:03.107646100, The note # 2 was read 
+
